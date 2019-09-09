@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+ 		<meta name="author" content="Developer Miguel Sanabria">
+		<title>Ejercicio 1</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg">
+	     	<div class="container">
+	        	<a class="navbar-brand" href="#"><img class="img-fluid" id="logo" src="img/logo.png" alt="Miguel Sanabria" ></a>
+	        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+		        </button>
+				<div class="collapse navbar-collapse" id="main-navbar">
+		          	<ul class="navbar-nav mr-auto w-100 justify-content-end">
+			            <li class="nav-item">
+			              <a class="nav-link active" href="index.html">Ejercicio 1</a>
+			            </li>
+			            <li class="nav-item">
+			              <a class="nav-link" href="ejercicio2.html">Ejercicio 2</a>
+			            </li>
+			        </ul>
+		        </div>
+	      	</div>
+	    </nav>
+	    <div class="container">
+	    	<div class="row title">
+	    		<div class="col-12 text-center">
+	    			<h2>Carro de compra</h2>
+	    		</div>
+	    	</div>
+	    	<div class="row cesta-compra">
+	    		<div class="col-12">
+	    			<div id="droppable" class="ui-widget-header"></div>
+	    		</div>
+	    	</div>
+			<div id="categoria" class="productos">
+		    	<div class="row">
+		    		<div id="elemento1" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 1" iden="1" precio="92.60" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 1</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>92.60$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento2" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 2" iden="2" precio="12" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 2</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>12$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento3" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 3" iden="3" precio="10" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 3</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>10$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento4" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 4" iden="4" precio="70" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 4</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>70$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<div class="row">
+		    		<div id="elemento5" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 5" iden="5" precio="40" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 5</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>40$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento6" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 6" iden="6" precio="10" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 6</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>10$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento7" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 7" iden="7" precio="104" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 7</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>104$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    		<div id="elemento8" class="col-6 col-sm-6 col-md-3 ui-widget-content elemento 8" iden="8" precio="120" count="1">
+		    			<div class="item">
+		    				<img src="img/producto.png" alt="Miguel Sanabria" class="img-fluid">
+		    				<div class="contador">1</div>
+		    				<div class="title-item">
+		    					<span>Producto 8</span>
+		    				</div>
+		    				<div class="price-item">
+		    					<span>120$</span>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+	    	</div>
+		</div>
+	    <footer>
+		    <script type="text/javascript" src="//code.jquery.com/jquery-1.9.1.js"></script>
+			<script type="text/javascript" src="//code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+	    	<script type="text/javascript"src="js/bootstrap.min.js"></script>
+		    <script>
+		    $(document).ready(function(){
+				 $('.elemento').draggable({
+				    connectToSortable: '.drop-area',
+				    containment: 'document',
+				    helper: "clone",
+				  }); 
+
+				 $("#droppable").droppable({
+				    hoverClass: 'hovering',
+		  			drop: function (event, ui) {
+						var e = $(ui.draggable).clone();
+					    var idelemento = ui.helper.attr("id");
+					    var identificador = ui.helper.attr("iden");
+					    var price = ui.helper.attr("precio");
+					    if($("#droppable").find("."+identificador).length){
+					        var iden = $(".ui-widget-header .elemento").attr("iden");
+				            if(identificador == 1){
+					            var count = $(".ui-widget-header #elemento1").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento1').attr('count', result);
+						        $('#droppable #elemento1 .contador').html(result);
+					            
+					            var price_total = $(".ui-widget-header #elemento1").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento1').attr('precio', total);
+						        $('#droppable #elemento1 .price-item span').html(total.toFixed(2) +'$');
+				            }
+				            if(identificador == 2){
+					            var count = $(".ui-widget-header #elemento2").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento2').attr('count', result);
+						        $('#droppable #elemento2 .contador').html(result);
+				            	
+				            	var price_total = $(".ui-widget-header #elemento2").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento2').attr('precio', total);
+						        $('#droppable #elemento2 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 3){
+					            var count = $(".ui-widget-header #elemento3").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento3').attr('count', result);
+						        $('#droppable #elemento3 .contador').html(result);
+				            	
+				            	var price_total = $(".ui-widget-header #elemento3").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento3').attr('precio', total);
+						        $('#droppable #elemento3 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 4){
+					            var count = $(".ui-widget-header #elemento4").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento4').attr('count', result);
+						        $('#droppable #elemento4 .contador').html(result);
+				            
+				            	var price_total = $(".ui-widget-header #elemento4").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento4').attr('precio', total);
+						        $('#droppable #elemento4 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 5){
+					            var count = $(".ui-widget-header #elemento5").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento5').attr('count', result);
+						        $('#droppable #elemento5 .contador').html(result);
+				            
+				            	var price_total = $(".ui-widget-header #elemento5").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento5').attr('precio', total);
+						        $('#droppable #elemento5 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 6){
+					            var count = $(".ui-widget-header #elemento6").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento6').attr('count', result);
+						        $('#droppable #elemento6 .contador').html(result);
+				            
+						        var price_total = $(".ui-widget-header #elemento6").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento6').attr('precio', total);
+						        $('#droppable #elemento6 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 7){
+					            var count = $(".ui-widget-header #elemento7").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento7').attr('count', result);
+						        $('#droppable #elemento7 .contador').html(result);
+				            	
+				            	var price_total = $(".ui-widget-header #elemento7").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento7').attr('precio', total);
+						        $('#droppable #elemento7 .price-item span').html(parseFloat(total)+'$');
+				            }
+				            if(identificador == 8){
+					            var count = $(".ui-widget-header #elemento8").attr("count");
+						        var result = (parseInt(count) + 1);
+						        $('#droppable #elemento8').attr('count', result);
+						        $('#droppable #elemento8 .contador').html(result);
+				            	
+				            	var price_total = $(".ui-widget-header #elemento8").attr("precio");
+					            var total = (parseFloat(price) + parseFloat(price_total));
+						        $('#droppable #elemento8').attr('precio', total);
+						        $('#droppable #elemento8 .price-item span').html(parseFloat(total)+'$');
+				            }
+					        
+					    }else{
+							$(e).appendTo(this);
+						} 
+				    } 
+				});
+				$('#droppable').on('click','.elemento',function() {
+					$(this).remove();
+				});
+			});
+		    </script>
+	    	<div class="container">
+				<div class="row text-center">
+					<div class="copyright">
+						<span>Todos los derechos reservados &copy; 2018 - Desarrollador Web <a href="https://masc1293.github.io/" target="_blank">Miguel Sanabria</a></span>
+					</div>  
+				</div>
+            </div>
+	    </footer>
+	</body>
+</html>
