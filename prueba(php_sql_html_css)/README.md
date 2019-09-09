@@ -1,6 +1,6 @@
-# Senior Web Developer
+# Ejercicio
 
-Esta tarea se divide en 2 partes:
+Este ejercicio se divide en 2 partes:
 
 1. Backend (PHP y SQL)
 2. Frontend (HTML, CSS, Javascript)
